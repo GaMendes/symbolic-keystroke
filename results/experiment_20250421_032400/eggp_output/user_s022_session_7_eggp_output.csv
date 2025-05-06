@@ -1,0 +1,2 @@
+id,Expression,theta,size,MSE_train,MSE_val,MSE_test,R2_train,R2_val,R2_test,nll_train,nll_val,nll_test,mdl_train,mdl_val,mdl_test
+0,(Abs((x9 + x17)) ^ (Abs((Abs((Abs(Recip(((((x12 * x2) / x18) - x21) + (((((x12 * x2) / (x18 * -145.3555263003276)) - x21) * x21) + ((x18 / (x2 * x5)) - (x2 * x5)))))) ^ -9791.913127660615)) ^ (x24 + x19))) ^ (x18 * x15))),-145.3555263003276;-9791.913127660615,48,0.0,0.0,Infinity,1.0,1.0,-Infinity,0.0,0.0,Infinity,124.66138713847351,124.66138713847351,Infinity

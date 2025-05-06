@@ -1,0 +1,2 @@
+id,Expression,theta,size,MSE_train,MSE_val,MSE_test,R2_train,R2_val,R2_test,nll_train,nll_val,nll_test,mdl_train,mdl_val,mdl_test
+0,(Abs((x13 * x28)) ^ (Abs((x2 + (((x1 + x2) * x25) + x26))) ^ ((x2 * x2) * -7.248376017171612e7))),-7.248376017171612e7,21,0.0,0.0,Infinity,1.0,1.0,-Infinity,0.0,0.0,Infinity,43.74911676688687,43.74911676688687,Infinity

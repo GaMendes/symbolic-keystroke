@@ -1,0 +1,22 @@
+[Paths]
+PREPROCESSED_DATA_DIR = results/data
+EGGP_OUTPUT_DIR = results/eggp_output
+EVALUATION_RESULTS_DIR = results
+EVALUATION_RESULTS_FILENAME = session_evaluation_metrics.csv
+INPUT_DATA_FILE = data/DSL-StrongPasswordData.csv
+
+[Evaluation]
+DEFAULT_THRESHOLD = 0.8
+THRESHOLD_STRATEGY = fixed
+TARGET_COLUMN_NAME = class
+
+[Experiment]
+MIN_SESSION = 1
+MAX_SESSION = 7
+
+[EGGpArgs]
+maxSize = 50
+nPop = 500
+pc = 0.9
+pm = 0.1
+generations = 100
